@@ -1,4 +1,3 @@
-
 # Ex.No:2 Develop an application that uses GUI Components with Fonts and Colors
 
 
@@ -11,23 +10,10 @@ Android Studio(Min. required Artic Fox)
 
 
 ## ALGORITHM:
-Step 1: Create a New Android Project:
-              • Click New in the toolbar.
-              • In the window that appears, open the Android folder, select Android Application Project,
-              and click next.
-              • Provide the application name and the project name and then finally give the desired
-              package name.
-              • Choose a launcher icon for your application and then select Blank Activity and then click
-              Next
-              • Provide the desired Activity name for your project and then click Finish.
 
-Step 2: Create a New AVD (Android Virtual Device):
-        • click Android Virtual Device Manager from the toolbar.
-        • In the Android Virtual Device Manager panel, click New.
-        • Fill in the details for the AVD. Give it a name, a platform target, an SD card size, and
-        a skin (HVGA is default).
-        • Click Create AVD and Select the new AVD from the Android Virtual Device
-        Manager and click Start.
+Step 1: Create a New Android Project: • Click New in the toolbar. • In the window that appears, open the Android folder, select Android Application Project, and click next. • Provide the application name and the project name and then finally give the desired package name. • Choose a launcher icon for your application and then select Blank Activity and then click Next • Provide the desired Activity name for your project and then click Finish.
+
+Step 2: Create a New AVD (Android Virtual Device): • click Android Virtual Device Manager from the toolbar. • In the Android Virtual Device Manager panel, click New. • Fill in the details for the AVD. Give it a name, a platform target, an SD card size, and a skin (HVGA is default). • Click Create AVD and Select the new AVD from the Android Virtual Device Manager and click Start.
 
 Step 3: Design the graphical layout with a text view and two command buttons.
 
@@ -36,21 +22,21 @@ Step 4: Run the application.
 Step 5:On pressing the change font size button, the size of the font gets altered.
 
 Step 6: On pressing the Color button, the color of the text altered.
-       
-Step 6:Close the Android project. 
 
+Step 6:Close the Android project.
+ 
 
 ## Program:
- ```
+ 
 /*
 Program to Develop an application that uses Font Size using Android Studio .
 Developed by: Prabhjot Singh
 RegisterNumber: 212222040116
 */
-```
+
 
 ## MainActivity.java:
-```
+
 package com.example.ex_2b;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -88,12 +74,14 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-```
+
+
 
 
 
 ## activity_main.xml:
-```
+
+
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -124,10 +112,20 @@ public class MainActivity extends AppCompatActivity {
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="456dp" />
 </RelativeLayout>
-```
+
+
+
 ## Output:
 
-<img width="607" alt="image" src="https://github.com/user-attachments/assets/fa25919f-c1ab-47e7-97f9-ca42d85713cf">
+![image](https://github.com/user-attachments/assets/019ddb30-6bad-4d29-840e-30a7401a5b76)
+
+![image](https://github.com/user-attachments/assets/a2bb1340-393e-4850-882c-e906ba291c78)
+
+
+
+
+
+
 
 ## Result:
 Thus, the program for android application, Font Size and color was executed successfully using Android Studio.
